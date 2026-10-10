@@ -1,0 +1,419 @@
+{
+  "categories": [
+    {
+      "id": "cat-smartphones",
+      "name": "Smartphones & Tablets",
+      "slug": "smartphones-tablets",
+      "description": "Aparelhos selecionados, procedência comprovada e garantia",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "cat-audio",
+      "name": "Áudio & Som Premium",
+      "slug": "audio-som",
+      "description": "Headphones de alta fidelidade, fones TWS e caixas de som",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "cat-perifericos",
+      "name": "Periféricos & Setup",
+      "slug": "perifericos-setup",
+      "description": "Teclados mecânicos, mouses gamer, suportes e cabos",
+      "order": 3,
+      "active": true
+    },
+    {
+      "id": "cat-carregadores",
+      "name": "Carregadores & Cabos",
+      "slug": "carregadores-cabos",
+      "description": "Tecnologia GaN de carregamento ultrarrápido e cabos reforçados",
+      "order": 4,
+      "active": true
+    },
+    {
+      "id": "cat-pecas",
+      "name": "Componentes & Peças",
+      "slug": "pecas-componentes",
+      "description": "SSDs, memórias, baterias e telas originais",
+      "order": 5,
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-smartphone-obsidian",
+      "sku": "MS-TEL-001",
+      "name": "Smartphone Obsidian Pro Titan 5G 256GB",
+      "slug": "smartphone-obsidian-pro-titan-5g-256gb",
+      "description": "Equipamento flagship com chassi em titânio e acabamento escuro acetinado. Câmera tripla de nível profissional, tela AMOLED de 120Hz com vidro temperado cerâmico e processador de 4nm de máxima eficiência.",
+      "categoryId": "cat-smartphones",
+      "price": 4299,
+      "promoPrice": 3899,
+      "stock": 8,
+      "minStockAlert": 3,
+      "active": true,
+      "featured": true,
+      "images": [
+        "/src/assets/images/product_flagship_smartphone_1791603859685.jpg"
+      ],
+      "specifications": {
+        "Armazenamento": "256 GB NVMe",
+        "Memória RAM": "12 GB LPDDR5X",
+        "Processador": "Octa-core 4nm",
+        "Conectividade": "5G, Wi-Fi 6E, Bluetooth 5.3, NFC",
+        "Bateria": "5000 mAh com carga ultrarrápida 67W",
+        "Garantia": "12 meses MS Multi Services"
+      },
+      "createdAt": "2026-10-10T03:58:17.792Z",
+      "updatedAt": "2026-10-10T03:58:17.792Z"
+    },
+    {
+      "id": "prod-headphone-aurora",
+      "sku": "MS-AUD-002",
+      "name": "Headphone Aurora ANC Gold Series Bluetooth 5.3",
+      "slug": "headphone-aurora-anc-gold-series-bluetooth",
+      "description": "Cancelamento ativo de ruído híbrido de até 42dB, drivers acústicos de 40mm com câmara de ressonância afinada, acabamento premium preto fosco com aros dourados e almofadas em couro sintético com memória de forma.",
+      "categoryId": "cat-audio",
+      "price": 689,
+      "promoPrice": 549,
+      "stock": 13,
+      "minStockAlert": 5,
+      "active": true,
+      "featured": true,
+      "images": [
+        "/src/assets/images/product_headphone_gold_1791603839090.jpg"
+      ],
+      "specifications": {
+        "Autonomia": "Até 60 horas sem ANC / 45 horas com ANC",
+        "Conectividade": "Bluetooth 5.3 + Cabo P2 banhado a ouro 3.5mm",
+        "Microfones": "4 microfones beamforming com redução de vento",
+        "Carregamento": "USB-C (10 min de carga = 5 horas de reprodução)",
+        "Garantia": "6 meses MS Multi Services"
+      },
+      "createdAt": "2026-10-10T03:58:17.792Z",
+      "updatedAt": "2026-10-10T03:58:49.104Z"
+    },
+    {
+      "id": "prod-teclado-vulcan",
+      "sku": "MS-PER-003",
+      "name": "Teclado Mecânico Vulcan RGB Gold Switch Brown",
+      "slug": "teclado-mecanico-vulcan-rgb-gold-switch-brown",
+      "description": "Construção com chassi em alumínio escovado de padrão aeronáutico, switches táteis balanceados (Switch Brown), teclas em PBT double-shot de altíssima durabilidade e iluminação âmbar/dourada personalizável.",
+      "categoryId": "cat-perifericos",
+      "price": 420,
+      "promoPrice": 379,
+      "stock": 12,
+      "minStockAlert": 4,
+      "active": true,
+      "featured": true,
+      "images": [
+        "/src/assets/images/product_keyboard_mechanical_1791603850646.jpg"
+      ],
+      "specifications": {
+        "Layout": "ABNT2 com Ç nativo",
+        "Switches": "Mechanical Brown Tátil (Hot-Swappable)",
+        "Keycaps": "PBT Double-Shot resistente a desgaste",
+        "Conexão": "Cabo USB-C trançado destacável de 1.8m",
+        "Software": "Suporte a macros e perfis de iluminação na memória onboard",
+        "Garantia": "12 meses MS Multi Services"
+      },
+      "createdAt": "2026-10-10T03:58:17.792Z",
+      "updatedAt": "2026-10-10T03:58:17.792Z"
+    },
+    {
+      "id": "prod-carregador-gan",
+      "sku": "MS-CAR-004",
+      "name": "Carregador GaN Turbo 65W Duplo USB-C + USB-A",
+      "slug": "carregador-gan-turbo-65w-duplo-usbc-usba",
+      "description": "Tecnologia de semicondutores de Nitreto de Gálio (GaN) que proporciona tamanho compacto e eficiência térmica superior. Permite carregar simultaneamente notebooks, tablets e smartphones na velocidade máxima de entrega de energia.",
+      "categoryId": "cat-carregadores",
+      "price": 199,
+      "promoPrice": 159,
+      "stock": 22,
+      "minStockAlert": 6,
+      "active": true,
+      "featured": false,
+      "images": [
+        "/src/assets/images/ms_hero_tech_banner_1791603825951.jpg"
+      ],
+      "specifications": {
+        "Potência Total": "65W Max Power Delivery 3.0 / PPS / QC 4+",
+        "Portas": "2x USB-C (65W) + 1x USB-A (22.5W)",
+        "Proteções": "Sobretensão, curto-circuito, sobreaquecimento e controle inteligente de temperatura",
+        "Certificação": "Homologado Anatel",
+        "Garantia": "6 meses MS Multi Services"
+      },
+      "createdAt": "2026-10-10T03:58:17.792Z",
+      "updatedAt": "2026-10-10T03:58:17.792Z"
+    },
+    {
+      "id": "prod-ssd-nvme",
+      "sku": "MS-PEC-005",
+      "name": "SSD NVMe M.2 PCIe Gen 4.0 1TB Pro Extreme 7400MB/s",
+      "slug": "ssd-nvme-m2-pcie-gen-4-1tb-pro-extreme",
+      "description": "Taxas ultrarrápidas de leitura sequencial de até 7.400 MB/s e gravação de até 6.500 MB/s. Equipado com dissipador de grafeno ultrafino para compatibilidade com notebooks, consoles de última geração e desktops profissionais.",
+      "categoryId": "cat-pecas",
+      "price": 599,
+      "promoPrice": 529,
+      "stock": 7,
+      "minStockAlert": 3,
+      "active": true,
+      "featured": true,
+      "images": [
+        "/src/assets/images/ms_hero_tech_banner_1791603825951.jpg"
+      ],
+      "specifications": {
+        "Interface": "PCIe Gen 4.0 x4, NVMe 1.4",
+        "Velocidade": "Leitura 7.400 MB/s | Gravação 6.500 MB/s",
+        "Formato": "M.2 2280",
+        "Durabilidade (TBW)": "600 TBW",
+        "Garantia": "24 meses MS Multi Services"
+      },
+      "createdAt": "2026-10-10T03:58:17.792Z",
+      "updatedAt": "2026-10-10T03:58:17.792Z"
+    },
+    {
+      "id": "prod-cabo-trancado",
+      "sku": "MS-CAR-006",
+      "name": "Cabo Trançado Reforçado 100W USB-C 2.0m Pro Armor",
+      "slug": "cabo-trancado-reforcado-100w-usbc-2m",
+      "description": "Cabo de alimentação e dados de alta potência (100W/5A) com blindagem quádrupla e revestimento em nylon balístico de alta resistência, suportando mais de 30.000 dobras em testes laboratoriais.",
+      "categoryId": "cat-carregadores",
+      "price": 79,
+      "promoPrice": 65,
+      "stock": 35,
+      "minStockAlert": 8,
+      "active": true,
+      "featured": false,
+      "images": [
+        "/src/assets/images/ms_hero_tech_banner_1791603825951.jpg"
+      ],
+      "specifications": {
+        "Comprimento": "2.0 Metros",
+        "Potência": "Suporte a até 100W (20V / 5A)",
+        "Material": "Nylon Trançado e conectores em liga de alumínio",
+        "Compatibilidade": "MacBook, notebooks USB-C, smartphones e tablets",
+        "Garantia": "12 meses MS Multi Services"
+      },
+      "createdAt": "2026-10-10T03:58:17.792Z",
+      "updatedAt": "2026-10-10T03:58:17.792Z"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "mov-1791604729104-755",
+      "productId": "prod-headphone-aurora",
+      "productName": "Headphone Aurora ANC Gold Series Bluetooth 5.3",
+      "sku": "MS-AUD-002",
+      "type": "venda_pedido",
+      "quantity": 1,
+      "balanceBefore": 14,
+      "balanceAfter": 13,
+      "reason": "Saída por venda online - Pedido MS-2026-4276",
+      "referenceId": "MS-2026-4276",
+      "operator": "Sistema Loja MS",
+      "createdAt": "2026-10-10T03:58:49.104Z"
+    },
+    {
+      "id": "mov-init-1",
+      "productId": "prod-smartphone-obsidian",
+      "productName": "Smartphone Obsidian Pro Titan 5G 256GB",
+      "sku": "MS-TEL-001",
+      "type": "entrada",
+      "quantity": 8,
+      "balanceBefore": 0,
+      "balanceAfter": 8,
+      "reason": "Estoque inicial de abertura de catálogo",
+      "operator": "Administração MS",
+      "createdAt": "2026-10-10T03:58:17.792Z"
+    },
+    {
+      "id": "mov-init-2",
+      "productId": "prod-headphone-aurora",
+      "productName": "Headphone Aurora ANC Gold Series Bluetooth 5.3",
+      "sku": "MS-AUD-002",
+      "type": "entrada",
+      "quantity": 14,
+      "balanceBefore": 0,
+      "balanceAfter": 14,
+      "reason": "Estoque inicial de abertura de catálogo",
+      "operator": "Administração MS",
+      "createdAt": "2026-10-10T03:58:17.792Z"
+    },
+    {
+      "id": "mov-init-3",
+      "productId": "prod-teclado-vulcan",
+      "productName": "Teclado Mecânico Vulcan RGB Gold Switch Brown",
+      "sku": "MS-PER-003",
+      "type": "entrada",
+      "quantity": 12,
+      "balanceBefore": 0,
+      "balanceAfter": 12,
+      "reason": "Estoque inicial de abertura de catálogo",
+      "operator": "Administração MS",
+      "createdAt": "2026-10-10T03:58:17.792Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1791604729104",
+      "orderNumber": "MS-2026-4276",
+      "customer": {
+        "name": "Teste Cliente",
+        "email": "teste@exemplo.com",
+        "phone": "11999998888",
+        "cpf": ""
+      },
+      "deliveryType": "retirada",
+      "items": [
+        {
+          "productId": "prod-headphone-aurora",
+          "sku": "MS-AUD-002",
+          "name": "Headphone Aurora ANC Gold Series Bluetooth 5.3",
+          "price": 549,
+          "quantity": 1,
+          "total": 549,
+          "image": "/src/assets/images/product_headphone_gold_1791603839090.jpg"
+        }
+      ],
+      "subtotal": 549,
+      "shippingFee": 0,
+      "discount": 0,
+      "total": 549,
+      "paymentMethod": "pix",
+      "paymentStatus": "aprovado",
+      "fulfillmentStatus": "separacao",
+      "pixPayload": "00020126580014BR.GOV.BCB.PIX0136contato@msmultiservices.com.br52040000530398654006549.005802BR5922MS Multi Services LTDA6009SAO PAULO62070503MS-2026-42766304FA87",
+      "statusHistory": [
+        {
+          "status": "aprovado",
+          "type": "payment",
+          "note": "Confirmação de pagamento via gateway (Transação: GW-1791604745199)",
+          "updatedAt": "2026-10-10T03:59:05.199Z"
+        },
+        {
+          "status": "pendente",
+          "type": "payment",
+          "note": "Código PIX gerado. Aguardando pagamento.",
+          "updatedAt": "2026-10-10T03:58:49.104Z"
+        },
+        {
+          "status": "novo",
+          "type": "fulfillment",
+          "note": "Pedido recebido com sucesso no sistema.",
+          "updatedAt": "2026-10-10T03:58:49.104Z"
+        }
+      ],
+      "createdAt": "2026-10-10T03:58:49.104Z",
+      "updatedAt": "2026-10-10T03:59:05.199Z"
+    },
+    {
+      "id": "ord-seed-01",
+      "orderNumber": "MS-2026-00101",
+      "customer": {
+        "name": "Carlos Eduardo Silva",
+        "email": "carlos.silva@exemplo.com.br",
+        "phone": "(11) 98765-4321",
+        "cpf": "123.456.789-00"
+      },
+      "deliveryType": "entrega",
+      "shippingAddress": {
+        "cep": "01310-100",
+        "street": "Avenida Paulista",
+        "number": "1000",
+        "complement": "Apto 42",
+        "neighborhood": "Bela Vista",
+        "city": "São Paulo",
+        "state": "SP"
+      },
+      "items": [
+        {
+          "productId": "prod-headphone-aurora",
+          "sku": "MS-AUD-002",
+          "name": "Headphone Aurora ANC Gold Series Bluetooth 5.3",
+          "price": 549,
+          "quantity": 1,
+          "total": 549,
+          "image": "/src/assets/images/product_headphone_gold_1791603839090.jpg"
+        }
+      ],
+      "subtotal": 549,
+      "shippingFee": 0,
+      "discount": 0,
+      "total": 549,
+      "paymentMethod": "pix",
+      "paymentStatus": "aprovado",
+      "fulfillmentStatus": "separacao",
+      "pixPayload": "00020126580014BR.GOV.BCB.PIX0136msmultiservices@pix.com5204000053039865405549.005802BR5917MS MULTI SERVICES6009SAO PAULO62070503***6304ABCD",
+      "statusHistory": [
+        {
+          "status": "pendente",
+          "type": "payment",
+          "note": "Aguardando confirmação PIX",
+          "updatedAt": "2026-10-09T22:58:17.792Z"
+        },
+        {
+          "status": "aprovado",
+          "type": "payment",
+          "note": "Pagamento Pix identificado e compensado",
+          "updatedAt": "2026-10-09T23:58:17.792Z"
+        },
+        {
+          "status": "separacao",
+          "type": "fulfillment",
+          "note": "Produto separado e conferido na bancada técnica",
+          "updatedAt": "2026-10-10T00:58:17.792Z"
+        }
+      ],
+      "createdAt": "2026-10-09T22:58:17.792Z",
+      "updatedAt": "2026-10-10T00:58:17.792Z"
+    }
+  ],
+  "assistanceRequests": [
+    {
+      "id": "ast-001",
+      "requestNumber": "OS-MS-2026-089",
+      "customerName": "Renata Vasconcelos",
+      "customerPhone": "(11) 99123-8877",
+      "customerEmail": "renata.v@exemplo.com",
+      "deviceType": "Smartphone",
+      "brandModel": "iPhone 13 Pro 128GB",
+      "serialNumber": "F2LX9009N70M",
+      "issueDescription": "Aparelho sofreu queda, vidro frontal trincado e touch falhando no canto superior direito.",
+      "preferredService": "Troca de Tela Original",
+      "status": "em_orcamento",
+      "notes": "Peça disponível em estoque. Avaliando se há danos ao sensor Face ID.",
+      "estimatedPrice": 650,
+      "createdAt": "2026-10-09T15:58:17.792Z",
+      "updatedAt": "2026-10-10T01:58:17.792Z"
+    }
+  ],
+  "settings": {
+    "storeName": "MS Multi Services",
+    "tagline": "Tecnologia, Produtos de Alta Performance & Assistência Técnica Especializada",
+    "logoUrl": "https://i.postimg.cc/MTnJQTSJ/MS.jpg",
+    "cnpj": "48.912.345/0001-90",
+    "phone": "(11) 3456-7890",
+    "whatsapp": "5511999998888",
+    "email": "contato@msmultiservices.com.br",
+    "address": "Rua do Comércio Tecnológico, 350 - Centro Comercial MS - São Paulo / SP",
+    "openingHours": "Segunda a Sexta: 08:30 às 18:30 | Sábados: 09:00 às 14:00",
+    "heroBannerTitle": "Tecnologia de Ponta, Produtos Selecionados & Suporte Especializado",
+    "heroBannerSubtitle": "Eletrônicos e acessórios com procedência garantida e o suporte técnico de quem realmente entende do assunto.",
+    "pixKey": "contato@msmultiservices.com.br",
+    "pixKeyType": "E-mail",
+    "pixReceiver": "MS Multi Services LTDA",
+    "mercadoPagoSandbox": true,
+    "freeShippingMinimum": 299,
+    "defaultShippingFee": 24.9,
+    "pickupAddress": "Balcão MS Multi Services: Rua do Comércio Tecnológico, 350 - Retirada em até 2 horas úteis."
+  },
+  "adminTokens": {
+    "admin-session-token-demo-2026": {
+      "email": "admin@msmultiservices.com.br",
+      "createdAt": "2026-10-10T03:58:17.792Z"
+    }
+  }
+}

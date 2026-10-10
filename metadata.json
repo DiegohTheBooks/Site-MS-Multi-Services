@@ -1,0 +1,6 @@
+{
+  "name": "MS Multi Services - Loja Virtual & Assistência Técnica",
+  "description": "Comércio eletrônico especializado em smartphones, periféricos, acessórios e assistência técnica especializada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
